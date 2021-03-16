@@ -1,0 +1,15 @@
+[package]
+name = "marvel_kata_rust"
+version = "0.1.0"
+authors = ["Federico Barcelona <fede_rico_94@hotmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ureq = { version = "2.0.2", features = ["json"] }
+
+[dev_dependencies]
+mockall = "0.9.1"
+rspec = "1.0"
+spectral = "0.6.0"
